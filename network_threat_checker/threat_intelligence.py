@@ -4,10 +4,14 @@ env_vars = dotenv_values()
 ABUSE_IPDB_KEY = env_vars.get('ABUSEIPDB_KEY')
 
 def check_ip_threat(ip):
+
+    """This method fetches information from abusepidb.com and returns
+     information about the IP address’s threat level and related details."""
+
     url = 'https://api.abuseipdb.com/api/v2/check'
     querystring = {
         'ipAddress': ip,
-        'maxAgeInDays': '90'
+        'maxAgeInDays': '11'
     }
     headers = {
         'Accept': 'application/json',
