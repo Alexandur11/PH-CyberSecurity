@@ -2,3 +2,6 @@ requests
 python-dotenv
 pytest
 pytest-mock
+pandas
+matplotlib
+seaborn
