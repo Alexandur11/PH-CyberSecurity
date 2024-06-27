@@ -14,5 +14,5 @@ severity_counts = df['severity_label'].value_counts().sort_index()
 top_plugins = df['pluginName'].value_counts().head(10)
 
 
-print(vulnarability_pie_chart(severity_counts)) # Display chart
-print(top_plugins_by_vulnerability_count(top_plugins)) # Display chart
+vulnarability_pie_chart(severity_counts) # Display chart
+top_plugins_by_vulnerability_count(top_plugins) # Display chart

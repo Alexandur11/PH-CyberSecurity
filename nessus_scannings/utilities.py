@@ -21,7 +21,7 @@ def vulnarability_pie_chart(severity_counts):
     severity_counts.plot(kind='pie', autopct='%1.1f%%', startangle=140, colors=['blue', 'green', 'orange', 'red', 'purple'])
     plt.title('Vulnerabilities by Severity')
     plt.ylabel('')
-    plt.show()
+    return plt.show()
 
 
 def top_plugins_by_vulnerability_count(top_plugins):
@@ -30,7 +30,8 @@ def top_plugins_by_vulnerability_count(top_plugins):
     plt.title('Top 10 Plugins by Vulnerability Count')
     plt.xlabel('Count')
     plt.ylabel('Plugin Name')
-    plt.show()
+    plt.tight_layout()
+    return plt.show()
 
 
 
