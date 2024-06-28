@@ -5,8 +5,10 @@ ABUSE_IPDB_KEY = env_vars.get('ABUSEIPDB_KEY')
 
 def check_ip_threat(ip):
 
-    """This method fetches information from abusepidb.com and returns
-     information about the IP address’s threat level and related details."""
+    """Retrieves information from abusepidb.com with the use of API key.
+
+       returns:
+            information about the IP address’s threat level and related details."""
 
     url = 'https://api.abuseipdb.com/api/v2/check'
     querystring = {
