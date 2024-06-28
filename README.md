@@ -1,6 +1,6 @@
 ![PayHawk_Security](https://github.com/Alexandur11/PH-Security/assets/133868603/b9de5a5d-05e4-4636-afc7-c10942682898)
 
-Welcome to PH-Security! This project provides tools for viewing and  analyzing network connections and visualizing Nessus scanning data.
+Welcome to PH-Security! This project provides tools for viewing and  analyzing network connections and visualizing Nessus scanning data into charts.
 
 ## Table of Contents
 - [Installation](#installation)
