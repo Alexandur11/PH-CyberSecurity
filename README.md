@@ -2,6 +2,7 @@ Welcome to PH-CyberSecurity! This project provides tools for analyzing network c
 
 Installation
 Before running the project, ensure you have Python installed and pip. 
+![PayHawk_Security](https://github.com/Alexandur11/PH-Security/assets/133868603/b9de5a5d-05e4-4636-afc7-c10942682898)
 
 To view old connections you need to have WireShark installed.
 
