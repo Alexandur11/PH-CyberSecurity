@@ -3,9 +3,9 @@ from network_threat_checker.network import display_current_connections, display_
 
 
 
-# 1. If you want to view active connections, uncomment the line below and run the current file.
-# display_current_connections() # Call to display current connections
+# 1. Active connections
+display_current_connections() # Call to display active connections
 
 
-# 2. If you want to view historical connections, uncomment the line below and run the current file.
-# display_historical_connections() # Call to display past connections
+# 2. Past Connections
+display_historical_connections() # Call to display past connections
