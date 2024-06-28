@@ -1,9 +1,12 @@
 Welcome to PH-CyberSecurity! This project provides tools for analyzing network connections and visualizing Nessus scanning data. Below is a guide to get you started with running and using this project effectively.
 
-###Installation
+Installation
 Before running the project, ensure you have Python installed and pip. 
 
+To view old connections you need to have WireShark installed.
+
 Then, install the required Python packages listed in the requirements.txt file. You can install them using pip:
+
 pip install -r requirements.txt
 
 ###Running the Project
