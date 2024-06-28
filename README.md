@@ -1,6 +1,11 @@
-# PH-CyberSecurity
+Welcome to PH-CyberSecurity! This project provides tools for analyzing network connections and visualizing Nessus scanning data. Below is a guide to get you started with running and using this project effectively.
 
-1. ### To run this project you will need to have Python and install everything from the requierements file.
+###Installation
+Before running the project, ensure you have Python installed and pip. 
 
-2. In order to run Current or Past connections list you just have to run main.py.
-3. In order to view data charts for Nessus scannings, you need to run the X file.
+Then, install the required Python packages listed in the requirements.txt file. You can install them using pip:
+pip install -r requirements.txt
+
+###Running the Project
+In order to view active and past connection, you can run network_threat_checker/main.py
+In order to view the charts, you can run nessus_scannings/main.py
